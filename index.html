@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Frank – Technical Artist | Cover Letter</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#f3e3c6;
+    --ink:#2a2a2a;
+    --accent:#f4bfbf;
+    --accent-2:#ffe28a;
+    --accent-3:#cfe3ff;
+    --card:#fff7e6;
+    --shadow:0 8px 22px rgba(0,0,0,.18), 0 2px 6px rgba(0,0,0,.08);
+    --tape:#f7f1cc;
+    --brand:#6a4cff;
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    margin:0; color:var(--ink);
+    background:
+      radial-gradient(1000px 600px at -10% -10%, #ffffff80, transparent 60%),
+      radial-gradient(800px 500px at 110% 110%, #ffffff60, transparent 60%),
+      repeating-linear-gradient(0deg, #0000 0 24px, #00000008 25px 25px),
+      var(--bg);
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    line-height:1.6;
+  }
+
+  .wrap{
+    max-width:1100px;
+    margin: clamp(16px,4vw,40px) auto;
+    padding: clamp(8px,2vw,20px);
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: clamp(16px,3vw,28px);
+  }
+  @media (max-width: 900px){
+    .grid{ grid-template-columns: 1fr; }
+  }
+
+  .header{
+    position:relative;
+    margin-bottom: clamp(14px,2.2vw,24px);
+    padding: clamp(16px,2vw,24px) clamp(18px,2vw,26px);
+    background: var(--card);
+    box-shadow: var(--shadow);
+    transform: rotate(-.6deg);
+    border-radius: 12px;
+    font-family: Kalam, "Comic Sans MS", cursive;
+  }
+  .header h1{
+    margin:0 0 .1em; font-size: clamp(30px,5vw,44px);
+  }
+  .header .role{
+    font-weight:700; letter-spacing:.3px; color:#7b6f57;
+    font-size: clamp(16px,2.2vw,20px);
+  }
+  .tape{
+    position:absolute; inset:auto auto -14px 24px;
+    width:110px; height:28px; background: var(--tape);
+    transform: rotate(-4deg);
+    box-shadow: 0 4px 8px rgba(0,0,0,.15) inset, 0 4px 10px rgba(0,0,0,.08);
+    opacity:.95;
+  }
+  .tape:after{
+    content:""; position:absolute; inset:0;
+    background: repeating-linear-gradient(90deg,#0000 0 14px,#00000008 14px 16px);
+    mix-blend-mode:multiply; border-radius:2px;
+  }
+
+  .paper{
+    position:relative;
+    background: var(--card);
+    padding: clamp(16px,2.2vw,22px);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+  }
+  .paper.skew{ transform: rotate(.6deg);}
+  .paper h3{
+    margin-top:0;
+    font-family: Kalam, cursive;
+    font-size: clamp(20px,2.8vw,26px);
+  }
+  .paper .pin{
+    position:absolute; width:120px; height:28px; background: var(--tape); opacity:.95;
+    left: clamp(10px,2vw,18px); top:-14px; transform: rotate(-3deg);
+    box-shadow: 0 4px 8px rgba(0,0,0,.15) inset, 0 4px 10px rgba(0,0,0,.08);
+  }
+
+  .note{
+    position:relative;
+    padding: clamp(16px,2vw,20px);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    font-size: 15px;
+  }
+  .note.yellow{ background: var(--accent-2); transform: rotate(-.6deg); }
+  .note.pink{ background: var(--accent); transform: rotate(.8deg); }
+  .note.blue{ background: var(--accent-3); transform: rotate(-.4deg); }
+  .note .pin{ top:-12px; }
+
+  ul{ padding-left: 1.1em; margin: .6em 0 0; }
+  li{ margin:.25em 0; }
+
+  .cover{
+    font-size: 1.02rem;
+    white-space:pre-wrap;
+  }
+
+  .contact{
+    display:flex; flex-direction:column; gap:16px;
+  }
+  .info{
+    list-style:none; padding:0; margin:0;
+    font-size:.98rem;
+  }
+  .info li{ margin:.25em 0; }
+  .info a{ color: var(--ink); text-decoration: none; border-bottom: 1px dashed #0003; }
+  .info a:hover{ border-bottom-color: var(--brand); color: var(--brand); }
+
+  .footer{
+    margin-top: clamp(18px,3vw,32px);
+    text-align:center; font-size:.95rem; opacity:.8;
+  }
+
+  .badge{
+    display:inline-block; padding:.2em .6em; border-radius:999px;
+    background:#00000010; font-size:.8rem; margin-left:.3em;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="header">
+    <div class="tape" aria-hidden="true"></div>
+    <h1>Franco Agnic</h1>
+    <div class="role">Technical Artist</div>
+  </header>
+
+  <div class="grid">
+    <section class="left">
+      <article class="paper skew">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Cover Letter – Frank</h3>
+        <div class="cover">
+Hello, I’m <strong>Frank</strong>, a passionate artist and game developer who loves combining creativity and technology to bring ideas to life. I consider myself a <strong>highly creative, proactive, and dedicated person</strong>, deeply passionate not only about playing video games but also about <strong>creating and shaping them</strong>.
+
+I specialize in <strong>virtual environment design, visual effects, and cinematic rendering</strong> using <strong>Unreal Engine 5</strong>, as well as <strong>3D modeling and texturing in Blender</strong>, and <strong>post-production with Adobe Premiere and Photoshop</strong>. I enjoy blending the artistic and technical sides of development to build immersive, emotionally engaging experiences.
+
+Since <strong>2020</strong>, I’ve been developing games with <strong>Scubalight Studios</strong>, working in <strong>Level &amp; Environment Design</strong> and contributing to visual direction, scene composition, and atmosphere. I worked on <em>Junior Solution</em> (2020–2022), a graphic adventure project, and later on <em>Don’t Kill Ramble</em> (2023–2025), a multiplayer project where I contributed as a <strong>VFX Artist, Level Designer, and Technical Artist</strong>.
+
+I’m a <strong>curious and self-taught creator</strong>, always learning new tools and refining every visual and technical detail. I’m motivated by creative environments that value innovation, experimentation, and artistic expression.
+        </div>
+      </article>
+
+      <article class="note pink" style="margin-top:18px">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Skills &amp; Tools</h3>
+        <ul>
+          <li>Environment and level design in Unreal Engine</li>
+          <li>Creation of dynamic materials and shaders</li>
+          <li>Visual effects using Niagara (UE5)</li>
+          <li>Gameplay scripting with Blueprints</li>
+          <li>Cinematic design &amp; sequencing</li>
+          <li>High-quality rendering for videos and stills</li>
+        </ul>
+      </article>
+
+      <article class="note yellow" style="margin-top:18px">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Professional Education</h3>
+        <ul>
+          <li>Universidad de Mendoza — Bachelor’s in Video Game Development <span class="badge">2020–2024</span></li>
+          <li>Courses in 3D Modeling &amp; Substance Painter <span class="badge">2023–2024</span></li>
+        </ul>
+      </article>
+    </section>
+
+    <aside class="right contact">
+      <section class="paper">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Contact</h3>
+        <ul class="info">
+          <li>📱 <a href="tel:+542613029570">+54 261 302 9570</a></li>
+          <li>🌐 <a href="https://frank-07.github.io/MyPortfolio/" target="_blank" rel="noopener">Portfolio Website</a></li>
+          <li>🎨 <a href="https://www.artstation.com/francoagnic3" target="_blank" rel="noopener">ArtStation</a></li>
+          <li>💼 <a href="https://www.linkedin.com/in/franco-agnic" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li>📍 Mendoza, Argentina</li>
+        </ul>
+      </section>
+
+      <section class="note blue">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Work Experience</h3>
+        <p><strong>Don’t Kill Ramble – Scubalight Studios</strong><br>
+        <em>2023–2025 · Unreal Engine 5 (Multiplayer)</em><br>
+        Roles: VFX Artist, Level Designer, Technical Artist</p>
+        <hr style="border:none;border-top:1px dashed #00000033;margin:.6em 0">
+        <p><strong>Junior Solution – Scubalight Studios</strong><br>
+        <em>2020–2022 · Graphic Adventure</em><br>
+        Roles: Level &amp; Environment Design, Gameplay Scripting with Blueprints</p>
+      </section>
+
+      <section class="paper">
+        <div class="pin" aria-hidden="true"></div>
+        <h3>Software</h3>
+        <ul>
+          <li>Unreal Engine 5 (Niagara, Blueprints)</li>
+          <li>Blender (Modeling &amp; Texturing)</li>
+          <li>Substance Painter (PBR)</li>
+          <li>Premiere Pro — <em>Editing and post-production</em></li>
+          <li>Adobe Photoshop</li>
+          <li>After Effects — <em>Beginner</em></li>
+        </ul>
+        <p><strong>Languages:</strong> Spanish (Native), English (Intermediate)</p>
+      </section>
+    </aside>
+  </div>
+
+  <div class="footer">
+    © <span id="year"></span> Frank — Technical Artist. Made with ❤️ and UE5 vibes.
+  </div>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
